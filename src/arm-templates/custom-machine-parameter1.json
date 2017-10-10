@@ -1,0 +1,36 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "adminUsername": {
+            "value": "vsts"
+        },
+        "adminPassword": {
+            "value": "helloWorld123"
+        },
+        "osDiskVhdUri": {
+            "value": "https://chrisv0saccount.blob.core.windows.net/system/Microsoft.Compute/Images/images/packer-osDisk.a48d1aa4-caf2-4747-887a-014d2414cd1d.vhd"
+        },
+        "dnsLabelPrefix": {
+            "value": "inghack2017"
+        },
+        "osType": {
+            "value": "Linux"
+        },
+        "vmSize": {
+            "value": "Standard_B2s"
+        },
+        "newOrExistingVnet": {
+            "value": "existing"
+        },
+        "newOrExistingVnetName": {
+            "value": "inghackethdemo-vnet"
+        },
+        "newOrExistingSubnetName": {
+            "value": "subnet-chrisv-1"
+        },
+        "existingVnetResourceGroupName": {
+            "value": "chrisv"
+        }
+    }
+}

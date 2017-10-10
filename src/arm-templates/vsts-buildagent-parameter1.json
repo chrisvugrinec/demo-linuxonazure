@@ -1,0 +1,13 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vmSize":   { "value": "Standard_B2s" },
+    "username": { "value": "vsts" },
+    "password": { "value": "helloWorld123" },
+    "dnsNameForPublicIP": { "value": "inghackvstsbuildagent"  },
+    "existingVirtualNetworkName": { "value": "inghackethdemo-vnet" },
+    "existingSubnetName": { "value": "subnet-chrisv-1" },
+    "existingVirtualNetworkResourceGroup": { "value": "chrisv" }
+  }
+}
