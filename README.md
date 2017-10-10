@@ -1,2 +1,2 @@
 # demo-linuxonazure
-a story of linux and containers on azure
+This contains the sourcecode and the presentation of linux solutions on Azure.
